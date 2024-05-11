@@ -1,7 +1,9 @@
 # SimulacionSimpy
 #Proyecto de simulacion de eventos discretos
 import simpy
+import math
 from random import randint
+
 class server():
 
    def __init__(self, env, machine, my_id): #constructor que crea el objeto tipo car, necesita env, machine(servidor), id que identifica coche
